@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11176579231,
+              "duration": 15334711851,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 11838573758,
+              "duration": 12209972796,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36986621009,
+              "duration": 33652675266,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 4213686253,
+              "duration": 2834594740,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 4609498992,
+              "duration": 21493307781,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 85253994,
+              "duration": 54316865,
               "status": "passed"
             },
             "line": 10,
@@ -105,7 +105,7 @@
         "before": [
           {
             "result": {
-              "duration": 4081273302,
+              "duration": 6945802691,
               "status": "passed"
             },
             "match": {
@@ -120,7 +120,7 @@
         "after": [
           {
             "result": {
-              "duration": 9808247793,
+              "duration": 17431664697,
               "status": "passed"
             },
             "match": {
@@ -133,8 +133,9 @@
         "steps": [
           {
             "result": {
-              "duration": 30961443636,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IKKQGFC\u0027, ip: \u0027192.168.43.154\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\KASTHURI\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52118}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 140f90a158a85557b1aafc6ec0a64aea\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.Base.loadUrl(Base.java:14)\r\n\tat steps.FormValidate.the_user_in_add_customer_page(FormValidate.java:17)\r\n\tat ✽.the user in add customer page(src/test/resources/features/AddCustomer.feature:14)\r\n",
+              "duration": 9509540218,
+              "status": "failed"
             },
             "line": 14,
             "name": "the user in add customer page",
@@ -145,8 +146,8 @@
           },
           {
             "result": {
-              "duration": 252811,
-              "status": "passed"
+              "duration": 28889,
+              "status": "skipped"
             },
             "line": 15,
             "name": "the user details are blank",
@@ -157,8 +158,8 @@
           },
           {
             "result": {
-              "duration": 1907304830,
-              "status": "passed"
+              "duration": 16444,
+              "status": "skipped"
             },
             "line": 16,
             "name": "the user clicks submit button",
@@ -169,8 +170,8 @@
           },
           {
             "result": {
-              "duration": 25616010,
-              "status": "passed"
+              "duration": 20445,
+              "status": "skipped"
             },
             "line": 17,
             "name": "the user should see alert message",
@@ -193,7 +194,7 @@
         "before": [
           {
             "result": {
-              "duration": 4290099428,
+              "duration": 3371709613,
               "status": "passed"
             },
             "match": {
@@ -208,7 +209,7 @@
         "after": [
           {
             "result": {
-              "duration": 17389599424,
+              "duration": 6673442812,
               "status": "passed"
             },
             "match": {
@@ -221,8 +222,9 @@
         "steps": [
           {
             "result": {
-              "duration": 31383878227,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IKKQGFC\u0027, ip: \u0027192.168.43.154\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\KASTHURI\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52168}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: f7a7dab3a50e757ac63e98877576c220\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.Base.loadUrl(Base.java:14)\r\n\tat steps.ErrorMsg.the_user_directs_to_add_customer_page(ErrorMsg.java:20)\r\n\tat ✽.the user directs to add customer page(src/test/resources/features/AddCustomer.feature:21)\r\n",
+              "duration": 3563975750,
+              "status": "failed"
             },
             "line": 21,
             "name": "the user directs to add customer page",
@@ -233,8 +235,8 @@
           },
           {
             "result": {
-              "duration": 3458883116,
-              "status": "passed"
+              "duration": 10667,
+              "status": "skipped"
             },
             "line": 22,
             "name": "the user enters invalid data in the fields",
@@ -256,8 +258,8 @@
           },
           {
             "result": {
-              "duration": 545975391,
-              "status": "passed"
+              "duration": 8444,
+              "status": "skipped"
             },
             "line": 24,
             "name": "the user should see error message",
@@ -300,7 +302,7 @@
         "before": [
           {
             "result": {
-              "duration": 3500323577,
+              "duration": 2829084076,
               "status": "passed"
             },
             "match": {
@@ -315,7 +317,7 @@
         "after": [
           {
             "result": {
-              "duration": 14888691358,
+              "duration": 10808037419,
               "status": "passed"
             },
             "match": {
@@ -328,8 +330,9 @@
         "steps": [
           {
             "result": {
-              "duration": 34157660549,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IKKQGFC\u0027, ip: \u0027192.168.43.154\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\KASTHURI\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52221}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: ec8e789bd7c4579e7138a0e3a05059a3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.Base.loadUrl(Base.java:14)\r\n\tat steps.AddTariffSteps.the_user_is_in_add_tariff_plan_page(AddTariffSteps.java:18)\r\n\tat ✽.The user is in add tariff plan page(src/test/resources/features/AddTariff.feature:8)\r\n",
+              "duration": 6426139810,
+              "status": "failed"
             },
             "line": 8,
             "name": "The user is in add tariff plan page",
@@ -340,8 +343,8 @@
           },
           {
             "result": {
-              "duration": 4994672605,
-              "status": "passed"
+              "duration": 12889,
+              "status": "skipped"
             },
             "line": 9,
             "name": "the User type the form details",
@@ -365,8 +368,8 @@
           },
           {
             "result": {
-              "duration": 14163448730,
-              "status": "passed"
+              "duration": 15556,
+              "status": "skipped"
             },
             "line": 11,
             "name": "Click the sumit button",
@@ -377,8 +380,8 @@
           },
           {
             "result": {
-              "duration": 87079310,
-              "status": "passed"
+              "duration": 14222,
+              "status": "skipped"
             },
             "line": 12,
             "name": "The user should see the success message",
@@ -401,7 +404,7 @@
         "before": [
           {
             "result": {
-              "duration": 3618765484,
+              "duration": 3775533877,
               "status": "passed"
             },
             "match": {
@@ -416,7 +419,7 @@
         "after": [
           {
             "result": {
-              "duration": 20868412466,
+              "duration": 7720938791,
               "status": "passed"
             },
             "match": {
@@ -429,8 +432,9 @@
         "steps": [
           {
             "result": {
-              "duration": 37365486234,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IKKQGFC\u0027, ip: \u0027192.168.43.154\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\KASTHURI\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52270}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 6a933fd6622cf37e4e33bb722fc065ee\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.Base.loadUrl(Base.java:14)\r\n\tat steps.AddTariffSteps.the_user_is_in_add_tariff_plan_page(AddTariffSteps.java:18)\r\n\tat ✽.The user is in add tariff plan page(src/test/resources/features/AddTariff.feature:16)\r\n",
+              "duration": 5268126547,
+              "status": "failed"
             },
             "line": 16,
             "name": "The user is in add tariff plan page",
@@ -441,8 +445,8 @@
           },
           {
             "result": {
-              "duration": 2412429653,
-              "status": "passed"
+              "duration": 13334,
+              "status": "skipped"
             },
             "line": 17,
             "name": "Click the submit button",
@@ -453,8 +457,8 @@
           },
           {
             "result": {
-              "duration": 8325473,
-              "status": "passed"
+              "duration": 9778,
+              "status": "skipped"
             },
             "line": 18,
             "name": "the user sees alert message",
@@ -477,7 +481,7 @@
         "before": [
           {
             "result": {
-              "duration": 8209306898,
+              "duration": 2648241490,
               "status": "passed"
             },
             "match": {
@@ -492,7 +496,7 @@
         "after": [
           {
             "result": {
-              "duration": 19972882250,
+              "duration": 7620570835,
               "status": "passed"
             },
             "match": {
@@ -505,8 +509,9 @@
         "steps": [
           {
             "result": {
-              "duration": 32290289577,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom chrome not reachable\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 7.41 seconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-IKKQGFC\u0027, ip: \u0027192.168.43.154\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.findFirst(Unknown Source)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat steps.Base.getDriver(Base.java:10)\r\n\tat steps.AddTariffSteps.the_user_is_in_add_tariff_plan_page(AddTariffSteps.java:17)\r\n\tat ✽.The user is in add tariff plan page(src/test/resources/features/AddTariff.feature:22)\r\n",
+              "duration": 8022114657,
+              "status": "failed"
             },
             "line": 22,
             "name": "The user is in add tariff plan page",
@@ -517,8 +522,8 @@
           },
           {
             "result": {
-              "duration": 5328211752,
-              "status": "passed"
+              "duration": 18222,
+              "status": "skipped"
             },
             "line": 23,
             "name": "user fill the fields with invalid data",
@@ -542,8 +547,8 @@
           },
           {
             "result": {
-              "duration": 13986169,
-              "status": "passed"
+              "duration": 13778,
+              "status": "skipped"
             },
             "line": 25,
             "name": "the user see invalid input labels",
